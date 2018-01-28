@@ -12,7 +12,7 @@ package pojo;
 public class User {
     private String firstName;
     private String lastName;
-    
+    private int age;
     
 
     /**
@@ -41,5 +41,19 @@ public class User {
      */
     public void setLastName(String lastName) {
         this.lastName = lastName;
+    }
+    
+    /**
+     * @return the age
+     */
+    public int getAge() {
+        return age;
+    }
+
+    /**
+     * @param age the age to set
+     */
+    public void setAge(int age) {
+        this.age = age;
     }
 }
