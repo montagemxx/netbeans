@@ -27,6 +27,10 @@ public class UserDaoImpl implements UserDao{
     public User getUser() {
         return users.get(0);
     }
+
+    @Override
+    public void deleteUser(String id) {
+    }
     
     
 }
